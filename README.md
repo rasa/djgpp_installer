@@ -1,6 +1,6 @@
 # djgpp_installer
 
-djgpp_installer lets you download and install DJGPP, which is
+djgpp_installer downloads and installs DJGPP, which is
 available at http://www.delorie.com/djgpp/.
 
 djgpp_installer also performs the following:
