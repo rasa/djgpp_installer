@@ -9,7 +9,7 @@ NSHS?=$(wildcard ../nshlib/*.nsh)
 APP_ZIP?=$(PREFIX).zip
 SRC_ZIP?=$(PREFIX)-src.zip
 APP_FILES=$(EXE) $(wildcard license.txt *.md)
-SRC_FILES=$(APP_FILES) $(NSHS) $(wildcard Makefile *.mak *.nsi *.nsh *.sh version.txt)
+SRC_FILES=$(APP_FILES) $(NSHS) $(wildcard Makefile *.html *.mak *.nsi *.nsh *.rb *.sh version.txt)
 
 ZIP?=zip
 ZIP_OPTS?=-9jquX
@@ -58,3 +58,6 @@ distclean:	clean
 realclean: clean
 
 .PHONY:	all clean dist distclean realclean run run1 run1s
+
+djgpp_installer.nsh: djgpp_installer.rb djgpp-zip-file-picker-results.html
+	ruby $^

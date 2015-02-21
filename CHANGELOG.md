@@ -1,3 +1,9 @@
+# 1.4 (21-Feb-2015)
+
+  * Updated URLs
+  * Added djgpp_installer.nsh builder script
+  * Updated Makefile to build djgpp_installer.nsh script
+
 # 1.3 (05-Apr-2007)
 
   * Fixed user defined start menu folder bug
