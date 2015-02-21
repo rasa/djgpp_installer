@@ -1,6 +1,7 @@
 # 1.4 (21-Feb-2015)
 
   * Updated URLs
+  * Removed extra backslash from default installation path
   * Added djgpp_installer.nsh builder script
   * Updated Makefile to build djgpp_installer.nsh script
 

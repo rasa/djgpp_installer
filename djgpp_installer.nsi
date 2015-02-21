@@ -9,7 +9,7 @@
 !addincludedir "../nsislib"
 !addincludedir "nsislib"
 
-!define PRODUCT_INSTALL_DIR "C:\\${PRODUCT_DIR}"
+!define PRODUCT_INSTALL_DIR "C:\${PRODUCT_DIR}"
 
 !include "config.nsh"
 
